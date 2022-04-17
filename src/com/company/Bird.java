@@ -2,7 +2,7 @@ package com.company;
 
 public class Bird extends Animal implements AnimalMove,AnimalBehavior{
     private String featherColorShava56415;
-    private Boolean flyShava56415;
+    
 
 
     @Override
@@ -13,7 +13,7 @@ public class Bird extends Animal implements AnimalMove,AnimalBehavior{
     public Bird(){
        super();
        featherColorShava56415="NN";
-       this.flyShava56415=true;
+       
 
     }
 
@@ -31,9 +31,7 @@ public class Bird extends Animal implements AnimalMove,AnimalBehavior{
         System.out.println("Flap flap");
     }
 
-    public void setFlyShava56415(Boolean flyShava56415){
-        this.flyShava56415=flyShava56415;
-    }
+   
 
     @Override
     public void getVoiceShava56415() {
